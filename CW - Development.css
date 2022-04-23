@@ -1,0 +1,75 @@
+body {
+	margin: 0;
+}
+nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 8vh;
+	background-color: #5D4954;
+	font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+	color: rgb(226, 226, 226);
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 20px;
+}
+
+.nav-links {
+	display: flex;
+	justify-content: space-around;
+	width: 30%;
+}
+
+.nav-links .current{
+	color: red;
+}
+
+.nav-links li {
+	list-style: none;
+}
+
+.nav-links a {
+	color: rgb(226, 226, 226);
+	text-decoration: none;
+	letter-spacing: 3px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+@media screen and (max-width: 1024px) {
+	.nav-links {
+		width: 50%;
+	}
+}
+
+.Titles {
+	display: flex;
+	justify-content: space-around;
+	width:90%;
+	list-style: none;
+	border: 5px grey;
+	border-style: solid;
+}
+
+.container {
+	padding: 1rem;
+	background-color: grey;
+	width: 10%;
+	height: 825px;
+	float: left;
+}
+
+.draggable {
+	padding: 1rem;
+	background-color: grey;
+	border: 1px;
+	border-style: solid;
+	cursor: move;
+}
+
+.draggable.dragging {
+	opacity: .100;
+}
