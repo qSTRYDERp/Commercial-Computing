@@ -45,21 +45,13 @@ nav {
 	}
 }
 
-.Titles {
-	display: flex;
-	justify-content: space-around;
-	width:90%;
-	list-style: none;
-	border: 5px grey;
-	border-style: solid;
-}
 
 .container {
-	padding: 1rem;
-	background-color: grey;
+	padding: 95px;
 	width: 10%;
 	height: 825px;
 	float: left;
+	border-style: solid black;
 }
 
 .draggable {
@@ -72,4 +64,34 @@ nav {
 
 .draggable.dragging {
 	opacity: .100;
+}
+
+#container1 {
+	background-color: darkgray;
+	border-style: 10px solid black;
+	border-width: thick;
+}
+
+#container2 {
+	background-color: gray;
+	border-style: 10px solid black;
+	border-width: thick;
+}
+
+#container3 {
+	background-color: darkgrey;
+	border-style: 10px solid black;
+	border-width: thick;
+}
+
+#container4 {
+	background-color: gray;
+	border-style: 10px solid black;
+	border-width: thick;
+}
+
+#container5 {
+	background-color: darkgray;
+	border-style: 10px solid black;
+	border-width: thick;
 }
